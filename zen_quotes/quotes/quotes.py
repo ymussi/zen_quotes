@@ -1,4 +1,4 @@
-from config import Config
+from zen_quotes.config import Config
 import requests, json
 
 class Quotes():

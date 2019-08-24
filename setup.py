@@ -1,9 +1,13 @@
 from setuptools import setup
 
+# install requirements of the project
+with open("requirements.txt") as req:
+    install_requires = req.read()
+
 setup(
     name='zen_quotes',
-    packages = ['quotes'],
-    version='1.0.1',
+    packages = ['zen_quotes'],
+    version='1.0.3',
     description='A sample lib Zen of Python',
     author='Yuri Mussi',
     author_email='ymussi@gmail.com',
