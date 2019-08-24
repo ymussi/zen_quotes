@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name='zen_quotes',
-    packages = ['zen_quotes'],
-    version='1.0.5',
+    packages = ['quotes'],
+    version='1.0.6',
     description='A sample lib Zen of Python',
     author='Yuri Mussi',
     author_email='ymussi@gmail.com',
