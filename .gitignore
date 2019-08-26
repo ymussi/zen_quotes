@@ -1,3 +1,4 @@
 zen_quotes.egg-info
 __pycache__
-.scannerwork
+*.scannerwork
+*.eggs
