@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='zen_quotes',
-    version_format="{tag}.dev{commitcount}",
+    version = '1.0.7',
     setup_requires=["setuptools-git-version"],
     packages = find_packages(),
     description='A sample lib Zen of Python',
