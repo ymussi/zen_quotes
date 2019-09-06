@@ -11,7 +11,7 @@ class Quotes():
         Busca na API Challenge Quotes, as citações 'Zen of Python'.
         """
         if quote is not None:
-            response = requests.get(self._url + f"/{quote}")
+            response = requests.get(self._url + f"/{quote - 1}")
         else:
             response = requests.get(self._url)
 
