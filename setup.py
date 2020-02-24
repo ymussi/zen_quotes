@@ -10,8 +10,8 @@ setup(
     name='zen_quotes',
     # other arguments omitted
     long_description=long_description,
-    long_description_content_type='text/markdown'
-    version = '1.1.0',
+    long_description_content_type='text/markdown',
+    version = '1.1.1',
     setup_requires=["setuptools-git-version"],
     packages = find_packages(),
     description='A sample lib Zen of Python',
