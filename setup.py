@@ -11,7 +11,7 @@ setup(
     # other arguments omitted
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version = '1.1.1',
+    version = '1.1.2',
     setup_requires=["setuptools-git-version"],
     packages = find_packages(),
     description='A sample lib Zen of Python',
