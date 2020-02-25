@@ -27,6 +27,8 @@ Quotes().get_quotes(lang='pt', quote=2) # this will return you the second quote 
 
 ```
 
+- This lib searches the project data: https://github.com/ymussi/zen_of_python
+
 # TODO
 
 - [] add other languages
